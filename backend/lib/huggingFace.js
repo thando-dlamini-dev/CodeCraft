@@ -47,7 +47,7 @@ const huggingFaceInstance = async (messages) => {
         
         const client = new InferenceClient(process.env.HF_API_KEY);
         const retryCompletion = await client.chatCompletion({
-          model: "deepseek-ai/DeepSeek-V3-0324",
+          model: process.env.HF_FALLBACK_MODEL,
           messages: simplifiedMessages,
           max_tokens: 1000,
           temperature: 0.1,
