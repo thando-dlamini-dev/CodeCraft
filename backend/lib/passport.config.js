@@ -53,7 +53,7 @@ export const generateToken = (user) => {
       id: user.id,
       username: user.username,
       displayName: user.displayName,
-      avatar: user.avatar_url
+      avatar: user.avatar
     },
     process.env.JWT_SECRET,
     { expiresIn: '7d' } // Extended to 7 days for better persistence

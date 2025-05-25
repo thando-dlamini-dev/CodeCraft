@@ -183,7 +183,7 @@ export const getUserInfo = async (req, res) => {
         id: userData.id,
         login: userData.login,
         name: userData.name,
-        avatar_url: userData.avatar_url,
+        avatar: userData.avatar,
         html_url: userData.html_url,
         public_repos: userData.public_repos,
         followers: userData.followers,
