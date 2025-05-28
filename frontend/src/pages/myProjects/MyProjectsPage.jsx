@@ -66,8 +66,8 @@ const MyProjects = () => {
                       </h2>
                       </div>
                       <div className='w-2/10 h-full flex justify-between items-start'>
-                        <ArrowUpRightFromSquare onClick={() => handleProjectSelect(project)} className='text-green-400 hover:scale-120 transition-all duration-150 ease-in-out'/>
-                        <Trash2Icon onClick={() => deleteProject(project.id)} className='text-red-400 hover:scale-120 transition-all duration-150 ease-in-out'/>
+                        <ArrowUpRightFromSquare onClick={() => handleProjectSelect(project)} className='text-green-400 hover:scale-120 transition-all duration-150 ease-in-out cursor-pointer'/>
+                        <Trash2Icon onClick={() => deleteProject(project.id)} className='text-red-400 hover:scale-120 transition-all duration-150 ease-in-out cursor-pointer'/>
                       </div>
                     </div>
                     <p className={`${isDarkMode ? "text-gray-300" : "text-gray-600"} text-sm mb-4 line-clamp-2`}>

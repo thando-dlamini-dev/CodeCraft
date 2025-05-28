@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Column 1: About */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">CodeCraft</h3>
+            <h3 className="text-lg font-semibold mb-4"><img src="../../public/CodeCraft-logo2.png" className='w-50 h-full' alt="" /></h3>
             <p className={`text-sm ${isDarkMode ? "text-gray-300" : "text-neutral-600"} mb-4`}>
               Personalized project recommendations for developers of all skill levels. 
               Build something that matters.

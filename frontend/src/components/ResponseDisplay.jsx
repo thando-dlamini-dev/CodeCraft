@@ -10,7 +10,7 @@ const ResponseDisplay = ({userInputs, response}) => {
   
     const flowchartRef = useRef(null);
     const { isDarkMode } = useThemeStore();
-    const { saveInputsAndResponse, createRepo, loading } = usePromptStore();
+    const { saveInputsAndResponse, loading } = usePromptStore();
     const { isAuthenticated } = useAuthStore();
     const navigate = useNavigate(); // Initialize useNavigate
 

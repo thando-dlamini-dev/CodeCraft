@@ -91,7 +91,8 @@ const Navbar = () => {
         <div className='lg:min-w-1/2 lg:h-2/3 lg:flex lg:items-center lg:justify-start'>
           <div className='lg:min-w-2/3 lg:h-full lg:flex lg:items-center lg:justify-center'>
             <ScrollLink to='/'>
-              <span className={`text-2xl font-bold`}>CodeCraft</span>
+              {/* <span className={`text-2xl font-bold`}>CodeCraft</span> */}
+              <img src="../../public/CodeCraft-logo2.png" className='w-50 h-full' alt="" />
             </ScrollLink>
           </div>
         </div>
@@ -140,7 +141,7 @@ const Navbar = () => {
         `}
       >
         <ScrollLink to='/'>
-          <span className={`text-2xl font-bold`}>CodeCraft</span>
+          <img src="../../public/CodeCraft-logo2.png" className='w-30 h-full' alt="" />
         </ScrollLink>
         
         <div className='flex items-center gap-4'>
